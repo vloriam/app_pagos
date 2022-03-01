@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:bankx/pages/screens.dart';
+import 'package:lottie/lottie.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -53,9 +54,10 @@ class _HomeState extends State<Home> {
             Container(
               height: 10,
             ),
-            Image.asset("assets/climbMan.png"),
+            Lottie.network(
+                'https://assets4.lottiefiles.com/packages/lf20_s37ywevl.json'),
             Container(
-              height: 5,
+              height: 1,
             ),
             Text(
               "Selecciona tú Sector",
