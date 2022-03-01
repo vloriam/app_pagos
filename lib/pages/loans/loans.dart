@@ -3,6 +3,8 @@ import 'dart:async';
 import 'package:animated/animated.dart';
 import 'package:bankx/pages/screens.dart';
 
+import 'FormPartOne.dart';
+
 class Loans extends StatefulWidget {
   @override
   _LoansState createState() => _LoansState();
@@ -211,7 +213,7 @@ class _LoansState extends State<Loans> {
                       PageTransition(
                         duration: Duration(milliseconds: 500),
                         type: PageTransitionType.rightToLeft,
-                        child: LoanStatement(
+                        child: FormPartOne(
                           loanType: loanType,
                           number: number,
                           dueAmount: dueAmount,
