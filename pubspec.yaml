@@ -32,6 +32,7 @@ dependencies:
   fluttertoast: ^7.1.6
   url_launcher: ^6.0.3
   firebase_auth: ^0.20.1
+  lottie: ^0.7.0+1
   
 
 dev_dependencies:
